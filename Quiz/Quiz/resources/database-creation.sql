@@ -1,0 +1,3 @@
+CREATE DATABASE quizDb;
+CREATE USER 'user0' IDENTIFIED BY 'pass';
+GRANT ALL ON quizDb.* TO 'user0';
